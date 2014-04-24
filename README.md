@@ -16,7 +16,7 @@ _json_
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:jasondmoss/composer-installer.git"
+            "url": "git@github.com:jasondmoss/composer-custom-installer.git"
         },
         {
             ...
@@ -37,7 +37,7 @@ _json_
     "require":{
         "php": ">=5.3",
 
-        "jasondmoss/composer-installer": "*",
+        "jasondmoss/composer-custom-installer": "*",
         "monolog/monolog": "*"
         ...
     }
