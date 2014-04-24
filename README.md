@@ -8,61 +8,45 @@ Usage
 
 First, you need to add it to your repositories section:
 
-_json_
-
+<strong>json</strong>
+...
 {
-    ...
-
     "repositories": [
         {
             "type": "vcs",
             "url": "git@github.com:jasondmoss/composer-custom-installer.git"
-        },
-        {
-            ...
         }
     ]
-
-    ...
 }
+...
 
 
 Second, add it to your require section, here I'm taking the famous `monolog` composer pacakge to install:
 
-_json_
-
+json
+...
 {
-    ...
-
     "require":{
         "php": ">=5.3",
 
         "jasondmoss/composer-custom-installer": "*",
         "monolog/monolog": "*"
-        ...
     }
-
-    ...
 }
+...
 
 
 Third, to instruct the plugin to install the 'monolog' package in a custom directory, use the 'extra' parameter:
 
-_json_
-
+json
+...
 {
-    ...
-
     "extra":{
         "installer-paths":{
             "./monolog/": ["monolog/monolog"]
-        },
-        {
-            ...
         }
     }
-
-    ...
 }
+...
 
 When defined as above, composer will be instructed to install 'monolog' in the folder, monolog, within the root of the directory 'composer install' was called from.
