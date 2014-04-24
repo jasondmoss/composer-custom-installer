@@ -20,7 +20,7 @@ namespace Composer\CustomInstaller;
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
-use Composer\CustomDirectoryInstaller\LibraryInstaller;
+use Composer\CustomInstaller\LibraryInstaller;
 
 class LibraryPlugin implements PluginInterface
 {
