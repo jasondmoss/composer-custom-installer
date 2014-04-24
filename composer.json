@@ -1,0 +1,45 @@
+{
+    "name": "jasondmoss/composer-custom-installer",
+    "type": "composer-plugin",
+    "keywords": [
+        "composer",
+        "composer-plugin",
+        "composer-installer"
+    ],
+    "version": "1.0.0",
+    "description": "A composer plugin, to install packages in custom paths.",
+    "homepage": "http://www.jdmlabs.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mina Nabil Sami",
+            "email": "mina.nsami@gmail.com"
+        },
+        {
+            "name": "Jason D. Moss",
+            "email": "jason@jdmlabs.com",
+            "homepage": "http://www.jdmlabs.com/",
+            "role": "Senior Developer"
+        }
+    ],
+
+    "minimum-stability": "dev",
+
+    "require": {
+        "php": ">=5.3.2",
+        "composer-plugin-api": "*"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Composer\\CustomInstaller": "src/"
+        }
+    },
+
+    "extra": {
+        "class": [
+            "Composer\\CustomInstaller\\LibraryPlugin",
+            "Composer\\CustomInstaller\\PearPlugin"
+        ]
+    }
+}
