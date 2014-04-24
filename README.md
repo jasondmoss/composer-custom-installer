@@ -8,7 +8,7 @@ Usage
 
 First, you need to add it to your repositories section:
 
-```
+```json
 {
     ...
     
@@ -25,7 +25,7 @@ First, you need to add it to your repositories section:
 
 Second, add it to your require section, here I'm taking the famous `monolog` composer pacakge to install:
 
-```
+```json
 {
     ...
     
@@ -44,7 +44,7 @@ Second, add it to your require section, here I'm taking the famous `monolog` com
 
 Third, to instruct the plugin to install the 'monolog' package in a custom directory, use the 'extra' parameter:
 
-```
+```json
 {
     ...
     
