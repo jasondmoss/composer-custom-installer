@@ -1,7 +1,7 @@
 composer-installer
 ==================
 
-A composer plugin, to install composer packages in custom directories outside of the default composer installation path [vendor].
+A composer plugin to install composer packages to custom directories outside of the default composer installation path [vendor].
 
 Usage
 =====
@@ -65,4 +65,4 @@ _json_
     ...
 }
 
-When stated as above, it will instruct composer to install 'monolog' in the folder, monolog, inside the directory 'composer install' was called from.
+When defined as above, composer will be instructed to install 'monolog' in the folder, monolog, within the root of the directory 'composer install' was called from.
