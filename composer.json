@@ -6,9 +6,9 @@
         "composer-plugin",
         "composer-installer"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A composer plugin for installing packages to custom paths.",
-    "homepage": "http://www.jdmlabs.com/",
+    "homepage": "http://www.leaseweblabs.com/",
     "license": "MIT",
     "authors": [
         {
