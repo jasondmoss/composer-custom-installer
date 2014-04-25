@@ -1,7 +1,7 @@
 composer-installer
 ==================
 
-A composer plugin to install composer packages to custom directories outside of the default composer installation path [vendor].
+A composer plugin to install composer packages to custom directories outside of the default composer installation path [vendor]. Forked from: https://github.com/mnsami/composer-installer-plugin
 
 Usage
 =====
