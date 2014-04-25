@@ -8,12 +8,12 @@
     ],
     "version": "1.0.1",
     "description": "A composer plugin for installing packages to custom paths.",
-    "homepage": "http://www.leaseweblabs.com/",
     "license": "MIT",
     "authors": [
         {
             "name": "Mina Nabil Sami",
-            "email": "mina.nsami@gmail.com"
+            "email": "mina.nsami@gmail.com",
+            "homepage": "http://www.leaseweblabs.com/",
         },
         {
             "name": "Jason D. Moss",
